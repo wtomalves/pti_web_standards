@@ -1,0 +1,131 @@
+*{
+    margin: 0; 
+    padding: 0; 
+    border: none; 
+    list-style-type: none; 
+    font-family:Arial, Helvetica, sans-serif; 
+    color: white;}
+
+body{
+    background-image: linear-gradient(to bottom, #3198e2, #6d59c0, #b93590, #e33f5f, #fdd579);
+    background-attachment: fixed;
+}
+
+h1:hover{
+    color: cyan;
+}
+
+h1{
+    margin: 32px; 
+    padding: 32px;
+}
+
+#foto{ 
+    display: flex; 
+    justify-content: center;
+}
+
+#foto img{
+    width: 20%; 
+    height: 40%; 
+    border-radius: 300px
+}
+
+
+.portifoliogithub {
+    width: 40%; 
+    height: 40%;
+    border-radius: 10px;
+        
+}
+    
+#descricao{
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    padding: 18px 12px;
+}
+
+.experiencia, .contatos, li{
+    margin-left: 32px;
+    margin-bottom: 10px; 
+    padding: 0px;
+}
+
+#iconlikedin{
+    display: flex;  
+}
+
+#iconlikedin a{
+    color: white;
+}
+
+#iconlikedin a:hover{
+    color: cyan;
+}
+
+.contatos li{
+    display: inline-block;
+}
+
+.experiencia,#rodape, h2, h3, h4, .link{
+    text-align: center;
+    padding: 10px 0;
+    text-decoration:none;
+}
+
+.experiencia a{
+    display: inline;
+    color: cyan
+}
+
+.experiencia a:hover{
+    color: cyan;
+}
+
+.vivencias{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+}
+
+.vivencias div{
+    width: 20%;
+    height: 40%;
+    text-align: center;
+    margin: 4px;
+}
+
+#rodape{
+    padding: 30px;
+    border: solid 1px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+.row a{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: cyan   ;
+}
+
+#linkrodape{
+    color: cyan;
+}
+
+#linkrodape:hover{
+    color: #6d59c0;
+}
+
